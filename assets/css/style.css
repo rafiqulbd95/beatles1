@@ -18,6 +18,18 @@ p{
 
 ul{
   list-style: none;
+  padding-left: 10px;
+}
+
+.pb-20{
+  padding-bottom: 20px;
+}
+.pt-20{
+  padding-top: 20px;
+}
+
+a{
+  text-decoration: none;
 }
 
 /* header area */
@@ -47,6 +59,8 @@ ul{
 }
 
 /* menu-area */
+
+
 #NavMenu {
   transition: all .3s linear;
   padding: 10px 0; 
@@ -337,7 +351,6 @@ padding-top: 10px;
 
 .testimonial-area{
   text-align: center;
-  padding-bottom: 50px;
 }
 
 .testimonial-area .section-title{
@@ -384,6 +397,31 @@ padding-top: 10px;
 .footer-area{
   background: #353535;
 }
-.footer-area p{
+.footer-item p{
+  color: #fff;
+}
+
+.footer-item h3{
+  color: #fff;
+}
+
+.footer-menu a{
+  color: #fff;
+}
+.footer-item h3{
+  padding-bottom: 20px;
+}
+.footer-item li {
+  padding: 10px 0;
+}
+.footer-menu li a:hover {
+  color: #5bc5f4;
+}
+
+.copy_right-area{
+  background: #555;
+
+}
+.copy_right p{
   color: #fff;
 }
